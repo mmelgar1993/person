@@ -24,7 +24,7 @@ public class Person {
 	
 	private String typePerson;
 	
-	private List<Address> addres;
+	private List<Address> address;
 	
 	private Documents documents;
 	
