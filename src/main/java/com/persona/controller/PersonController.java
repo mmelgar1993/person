@@ -62,7 +62,7 @@ public class PersonController {
 					bd.setPersonLegal(ps.getPersonLegal());
 					bd.setPersonNatural(ps.getPersonNatural());
 					bd.setTypePerson(ps.getTypePerson());
-					bd.setAddress(ps.getAddress());
+					bd.setAddres(ps.getAddres());
 					return bd;
 				})
 				.flatMap(personService::update)
